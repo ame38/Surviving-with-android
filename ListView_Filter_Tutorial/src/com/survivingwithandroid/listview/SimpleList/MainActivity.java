@@ -105,7 +105,7 @@ public class MainActivity extends Activity {
 				public void onTextChanged(CharSequence s, int start, int before, int count) {
 					System.out.println("Text ["+s+"] - Start ["+start+"] - Before ["+before+"] - Count ["+count+"]");
 					if (count < before) {
-						// We're deleting char so we need to reset the adapter data
+						// We're deleting a char so we need to reset the adapter data
 						aAdpt.resetData();
 					}
 						
