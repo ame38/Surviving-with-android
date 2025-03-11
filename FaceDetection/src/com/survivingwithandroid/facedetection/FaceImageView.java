@@ -78,7 +78,7 @@ public class FaceImageView extends ImageView {
 
 	public void detectFaces() {
 		Log.d("FaceDet", "Detecting faces....");
-		// Convert bitmap in 556
+		// Convert bitmap in 565
 		
 		Bitmap tmpBmp = image.copy(Config.RGB_565, true);
 		
