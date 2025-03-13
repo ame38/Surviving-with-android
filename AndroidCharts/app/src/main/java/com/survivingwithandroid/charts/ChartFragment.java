@@ -187,7 +187,7 @@ public class ChartFragment extends Fragment {
         XYMultipleSeriesDataset dataset = new XYMultipleSeriesDataset();
         dataset.addSeries(series);
 
-        // Finaly we create the multiple series renderer to control the graph
+        // Finally we create the multiple series renderer to control the graph
         XYMultipleSeriesRenderer mRenderer = new XYMultipleSeriesRenderer();
         mRenderer.addSeriesRenderer(renderer);
 
@@ -236,7 +236,7 @@ public class ChartFragment extends Fragment {
         XYMultipleSeriesDataset dataset = new XYMultipleSeriesDataset();
         dataset.addSeries(series);
 
-        // Finaly we create the multiple series renderer to control the graph
+        // Finally we create the multiple series renderer to control the graph
         XYMultipleSeriesRenderer mRenderer = new XYMultipleSeriesRenderer();
         mRenderer.addSeriesRenderer(renderer);
 

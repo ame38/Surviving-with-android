@@ -50,7 +50,7 @@ public class ListBookmarkFragment extends Fragment {
 	@Override
 	public void onAttach(Activity activity) {		
 		
-		// It's time we check if our activity implements the right inteface
+		// It's time we check if our activity implements the right interface
 		if (! (activity instanceof BookmarkListener) )
 			throw new ClassCastException();
 		
