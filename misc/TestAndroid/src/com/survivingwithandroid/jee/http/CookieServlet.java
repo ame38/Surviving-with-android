@@ -33,7 +33,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 
 /**
- * Servlet implementation classCookieServlet
+ * Servlet implementation class CookieServlet
  */
 @WebServlet("/CookieServlet")
 @MultipartConfig
