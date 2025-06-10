@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
 					long id) {
 				
 				
-				// We know the View is a <extView so we can cast it
+				// We know the View is a TextView so we can cast it
 				TextView clickedView = (TextView) view;
 
 				Toast.makeText(MainActivity.this, "Item with id ["+id+"] - Position ["+position+"] - Planet ["+clickedView.getText()+"]", Toast.LENGTH_SHORT).show();
