@@ -58,7 +58,7 @@ public class PlanetAdapter extends ArrayAdapter<Planet> {
 		
 		// First let's verify the convertView is not null
 		if (convertView == null) {
-			// This a new view we inflate the new layout
+			// This is a new view we inflate the new layout
 			LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			v = inflater.inflate(R.layout.row_layout, null);
 			// Now we can fill the layout with the right values
