@@ -118,7 +118,7 @@ public class ChartFragment extends Fragment {
 
             @Override
             public void onConnectionError(Throwable throwable) {
-                Toast.makeText(getActivity(), "Error connecting to the remove weather server!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "Error connecting to the remote weather server!", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -137,7 +137,7 @@ public class ChartFragment extends Fragment {
 
             @Override
             public void onConnectionError(Throwable throwable) {
-                Toast.makeText(getActivity(), "Forecast: Error connecting to the remove weather server!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "Forecast: Error connecting to the remote weather server!", Toast.LENGTH_LONG).show();
             }
         });
     }
