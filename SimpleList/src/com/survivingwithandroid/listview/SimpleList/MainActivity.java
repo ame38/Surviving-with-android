@@ -100,7 +100,7 @@ public class MainActivity extends Activity {
 			}
 		   });
         
-          // we register for the contextmneu        
+          // we register for the context menu
           registerForContextMenu(lv);
         }
    
