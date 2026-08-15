@@ -87,8 +87,9 @@ public class MainActivity extends Activity {
 				byte[] b = new byte[1024];
 				ByteArrayOutputStream baos = new ByteArrayOutputStream();
 				
-				while ( is.read(b) != -1)
-					baos.write(b);
+				int len;
+				while ( (len = is.read(b)) != -1)
+					baos.write(b, 0, len);
 				
 				String JSONResp = new String(baos.toByteArray());
 				
