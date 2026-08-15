@@ -147,7 +147,7 @@ public class MainActivity extends Activity {
 		try {
 			System.out.println("URL ["+url+"] - Name ["+name+"]");
 			
-			// Apache HTTP Reqeust
+			// Apache HTTP Request
 			HttpClient client = new DefaultHttpClient();
 			HttpPost post = new HttpPost(url);
 			List<NameValuePair> nvList = new ArrayList<NameValuePair>();

@@ -38,7 +38,7 @@ public class HttpClient {
 			
 		try {
 			StringBuffer buffer = new StringBuffer();
-			// Apache HTTP Reqeust
+			// Apache HTTP Request
 			System.out.println("Sending data..");
 			System.out.println("Data: [" + data + "]");
 			org.apache.http.client.HttpClient client = new DefaultHttpClient();
