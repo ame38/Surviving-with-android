@@ -45,7 +45,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		String[] tuts = new String[] {"Post data", "Dowload Image"};
+		String[] tuts = new String[] {"Post data", "Download Image"};
 		
 		ArrayAdapter<String> adpt = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, tuts);
 		ListView lv = (ListView) findViewById(R.id.tutList);
